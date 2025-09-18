@@ -1,8 +1,11 @@
 # Kai Skowlund 
-## UNdergraduate Univerity of Colorado Boulder
--kaiskowlund@gmail.com
+## Undergraduate Univerity of Colorado Boulder
 
--KaiSkowlund@colorado.edu
+### Contact Information:
+
+- kaiskowlund@gmail.com
+
+- KaiSkowlund@colorado.edu
 
 -[GitHub](https://github.com/KaiSkowlund)
 
@@ -12,6 +15,9 @@ I'm an undergraduate student at CU Boulder studying geography with a focus on GI
 
 Im excited to improve my python skills in GIS applications in this Earth Data Science course. Im specifically interested in sattelite imagery classification using learning algorithms, as well as creating maps related to resource management. Id like to find out how the skills I learn in this course will complement my other skills using GIS software and analysing imagery. 
 
-![](/img/nz.jpeg)
 
+<img 
+  src="/img/nz.jpg" 
+  alt="Mt. Cook!" 
+  width="25%">
 
