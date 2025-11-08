@@ -1,6 +1,6 @@
 # Arctic Tern Migration 
 
-![Arctic Tern](migration_portfolio_post/tern.jpg)
+![Arctic Tern](tern.jpg)
 
 
 
@@ -16,6 +16,6 @@ Arctic terns are social birds, they spend their time in colonies with other tern
 
 This map of Arctic tern migration using Global Biodiversity Information Facility (GBIF) Occurrence data. You can observe the normaized distrabution of Arctic terns over space and time. The map uses data from 2024. 
 
-[🧭 View Migration Map](migration_portfolio_post/arctic_tern_occurrences_dashboard.html)
+[🧭 View Migration Map](arctic_tern_occurrences_dashboard.html)
 
 
