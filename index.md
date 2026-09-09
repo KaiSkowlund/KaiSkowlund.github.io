@@ -41,7 +41,19 @@ Id like to answer questions about wildfire vulnerability in the Front Range. I'm
 
 
 ## Map of CU Boulder
-<embed type="text/html" src="img/boulder.html" width="600" height="600">
+<figure style="text-align: center;">
+  <embed 
+    type="text/html" 
+    src="img/boulder.html" 
+    width="100%" 
+    height="500px" 
+    style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+  />
+  <figcaption style="font-style: italic; font-size: 0.9em; margin-top: 8px; color: #555;">
+    CU Boulder has been my home and place of study for the last 4 years. It is very meaningful to me and my work!
+  </figcaption>
+</figure>
+
   
 
 
