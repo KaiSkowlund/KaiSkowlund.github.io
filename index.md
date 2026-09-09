@@ -11,9 +11,9 @@
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
   />
   <figcaption style="font-style: italic; font-size: 0.9em; margin-top: 8px; color: #555;">
-    Mount Cook, New Zealand. Photo credit: Kai Skowlund.
+    Me at Mt. Cook during my study aboard in New Zealand. 
   </figcaption>
-</figure>
+
 </div>
 
 
