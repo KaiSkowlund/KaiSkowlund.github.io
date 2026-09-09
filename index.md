@@ -1,11 +1,15 @@
-# Kai Skowlund 
 ## Undergraduate Univerity of Colorado Boulder
 
 <img 
   src="/img/nz.jpg" 
   alt="Mt. Cook!" 
-  width="25%">
-
+  width="25%" 
+  style="background-color: #fff; 
+  padding: 8px; 
+  border: 1px 
+  solid #ddd; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  
 ### Contact Information:
 
 - kaiskowlund@gmail.com
