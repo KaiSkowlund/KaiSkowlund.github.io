@@ -1,4 +1,4 @@
-## Undergraduate Univerity of Colorado Boulder
+# Undergraduate Univerity of Colorado Boulder
 <div style="text-align: center;">
   <img 
     src="/img/nz.jpg" 
@@ -12,19 +12,24 @@
   />
 </div>
     
-### Contact Information:
-
-- kaiskowlund@gmail.com
+## Contact Information:
 
 - KaiSkowlund@colorado.edu
--[LinkedIn](https://www.linkedin.com/in/kai-skowlund-0a5158358/)
--[GitHub](https://github.com/KaiSkowlund)
 
--[LinkedIn](https://www.linkedin.com/jobs/?mcid=6994434350142418944&src=go-pa&trk=sem-ga_campid.18853522261_asid.146084015209_crid.633923221414_kw.linkedin_d.c_tid.kwd-296170574619_n.g_mt.e_geo.9194567&cid=&gclsrc=aw.ds&gad_source=1&gad_campaignid=18853522261&gbraid=0AAAAABIeiSqj3siGc5Vp8EyLOzpaUmAeq&gclid=Cj0KCQjww4TGBhCKARIsAFLXndT_t8rDY7vJeuOq37bwjcNEj-WTRmeC_OZd_z0451q8_CRb2ngJFYIaAntKEALw_wcB)
+- [LinkedIn](https://www.linkedin.com/in/kai-skowlund-0a5158358/)
 
-I'm an undergraduate student at CU Boulder studying geography with a focus on GIS and data science. I grew up in Durango, Colorado and now Boulder is my home away from home.
+- [GitHub](https://github.com/KaiSkowlund)
 
-Im excited to improve my python skills in GIS applications in this Earth Data Science course. Im specifically interested in sattelite imagery classification using learning algorithms, as well as creating maps related to resource management. Id like to find out how the skills I learn in this course will complement my other skills using GIS software and analysing imagery. 
+- [Instagram](https://www.instagram.com/kai.skowlund/)
+
+
+
+I am a fourth-year Geography student at CU Boulder specializing in spatial analysis, remote sensing, and geospatial programming. My work focuses on turning complex geographic data into actionable insights through Python-based automation, machine learning, and modern GIS workflows. I am actively seeking internship and entry-level opportunities with federal agencies, environmental consulting firms, and organizations where spatial thinking drives real decisions.
+
+I'm originally from Durango, Colorado and moved out to Boulder in 2022 to begin my Undergraduate program. I'm an avid outdoorsman, in my freetime you can find me enjoying some fly fishing, kayaking, climbing, or possibly hiking up the next 14er on the bucket list!
+
+I'm excited to improve my python skills in GIS applications in this Earth Data Science course. I'm specifically interested in satellite imagery classification using learning algorithms, as well as creating maps related to resource management. Recently, I have become very interested in forestry and wildfire vulnerability approaches, so I'm hoping to pick up some skills to make me more efficient those type of projects.
+Id like to find out how the skills I learn in this course will complement my other skills using GIS software and analyzing imagery. I'm looking to bridge the gap between using the manual tools in ArcGIS Pro and more efficient open source python tools, and the ArcPy module itself in ArcGIS Pro.  
 
 
 ## Map of CU Boulder
