@@ -11,7 +11,7 @@
 - kaiskowlund@gmail.com
 
 - KaiSkowlund@colorado.edu
-
+-[LinkedIn](https://www.linkedin.com/in/kai-skowlund-0a5158358/)
 -[GitHub](https://github.com/KaiSkowlund)
 
 -[LinkedIn](https://www.linkedin.com/jobs/?mcid=6994434350142418944&src=go-pa&trk=sem-ga_campid.18853522261_asid.146084015209_crid.633923221414_kw.linkedin_d.c_tid.kwd-296170574619_n.g_mt.e_geo.9194567&cid=&gclsrc=aw.ds&gad_source=1&gad_campaignid=18853522261&gbraid=0AAAAABIeiSqj3siGc5Vp8EyLOzpaUmAeq&gclid=Cj0KCQjww4TGBhCKARIsAFLXndT_t8rDY7vJeuOq37bwjcNEj-WTRmeC_OZd_z0451q8_CRb2ngJFYIaAntKEALw_wcB)
