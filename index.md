@@ -3,7 +3,7 @@
   <img 
     src="/img/nz.jpg" 
     alt="Mt. Cook!" 
-    width="25%" 
+    width="60%" 
     style="background-color: #fff; 
     padding: 8px; 
     border: 1px 
