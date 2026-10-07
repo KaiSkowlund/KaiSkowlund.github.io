@@ -73,7 +73,7 @@ Since I grew up in Durango, I analyzed how temperatures in the area have changed
   </figcaption>
 </figure>
 
-Averaging by year removes the seasonal cycle and makes long-term changes easier to see. Temperatures still vary a lot from one year to the next, but the overall level has shifted upward over time. Gaps and sudden jumps in the line come from years when the station didn't report data, or reported only part of the year. A year with mostly summer readings, for example, will look unrealistically warm. To keep these incomplete years from skewing the results, I excluded them from the trend analysis below.
+Averaging by year removes the seasonal cycle and makes long-term changes easier to see. Temperatures still vary a lot from one year to the next, but the overall level has shifted upward over time. Gaps and sudden jumps in the line come from years when the station didn't report data, or reported only part of the year. To keep these incomplete years from skewing the results, I excluded them from the trend analysis below.
 
 ### Long-Term Warming Trend
 
@@ -89,9 +89,9 @@ Averaging by year removes the seasonal cycle and makes long-term changes easier 
   </figcaption>
 </figure>
 
-The line of best fit shows an average warming rate of about **0.0141 °C per year**, or roughly **1.41 °C (2.5 °F) per century**. Temperatures in the Durango area have clearly risen over the period of record. This closely matches statewide trends: Colorado has warmed about 2.5 °F since the early 1900s, and six of its eight warmest years on record have occurred since 2012 (Frankson et al., 2022).
+The line of best fit shows an average warming rate of about **0.0141 °C per year**, or roughly **1.41 °C (2.5 °F) per century**. Temperatures in the Durango area have clearly risen over the period of record. This closely matches statewide trends: Colorado has warmed about 2.5 °F since the early 1900s. (Frankson et al., 2022).
 
-Warmer temperatures matter a lot for southwest Colorado. They mean less snowpack, earlier runoff in the Animas River, and drier conditions that raise wildfire risk, all issues I care about as a GIS student focused on natural resources and wildfire.
+Warmer temperatures matter a lot for southwest Colorado. They mean less snowpack, earlier runoff in the Animas River, and drier conditions that raise wildfire risk. The topography and vegetation conditions in southwest Colorado are excellent wildfire fuel. Less moisture in the areas and higher temperatures have led to increased risk in fire frequency and severity.  
 
 **Data source:** NOAA National Centers for Environmental Information, Global Historical Climatology Network – Daily, station USC00053016 (Fort Lewis, CO).
 
