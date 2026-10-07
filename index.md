@@ -85,7 +85,7 @@ Averaging by year removes the seasonal cycle and makes long-term changes easier 
     style="background-color: #fff; padding: 8px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
   />
   <figcaption style="font-style: italic; font-size: 0.9em; margin-top: 8px; color: #555;">
-    Annual mean temperature (°C) with an ordinary least squares (OLS) line of best fit. Only years with at least 330 days of data were included.
+    Annual mean temperature (°C) with an ordinary least squares (OLS) line of best fit.
   </figcaption>
 </figure>
 
