@@ -54,25 +54,26 @@ Id like to answer questions about wildfire vulnerability in the Front Range. I'm
   </figcaption>
 </figure>
 
+
 ## Project: Climate Change in Durango, Colorado
 
-Since I grew up in Durango, I analyzed how temperatures in the area have changed over the past century. I used daily temperature records from NOAA's Global Historical Climatology Network for the **Fort Lewis** weather station (USC00053016), located about 11 miles west of Durango.
+Since I grew up in Durango, I analyzed how temperatures in the area have changed over the past century. I used daily temperature records from NOAA's Global Historical Climatology Network for the **Fort Lewis** weather station (USC00053016), located about 11 miles west of Durango. I calculated each day's average temperature from its maximum and minimum, converted it to Celsius, and then averaged the daily values by year.
 
-### Daily Temperatures
+### Annual Mean Temperature
 
 <figure style="text-align: center;">
   <img
     src="/img/DGO_ann_mean_temp.png"
-    alt="Daily temperature at Fort Lewis, CO"
+    alt="Annual mean temperature at Fort Lewis, CO"
     width="90%"
     style="background-color: #fff; padding: 8px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
   />
   <figcaption style="font-style: italic; font-size: 0.9em; margin-top: 8px; color: #555;">
-    Daily average temperature (°C) at the Fort Lewis station, calculated from each day's maximum and minimum temperatures.
+    Annual mean temperature (°C) at the Fort Lewis station, averaged from daily temperature records.
   </figcaption>
 </figure>
 
-This plot shows every daily temperature in the record. The repeating peaks and valleys are the seasonal cycle: summer highs near 30°C and winter lows well below freezing. Gaps are periods when the station didn't report data. With this much day-to-day and seasonal variation, a long-term trend is hard to see in daily data alone, so the next step averages the data by year.
+Averaging by year removes the seasonal cycle and makes long-term changes easier to see. Temperatures still vary a lot from one year to the next, but the overall level has shifted upward over time. Gaps and sudden jumps in the line come from years when the station didn't report data, or reported only part of the year. A year with mostly summer readings, for example, will look unrealistically warm. To keep these incomplete years from skewing the results, I excluded them from the trend analysis below.
 
 ### Long-Term Warming Trend
 
@@ -84,11 +85,11 @@ This plot shows every daily temperature in the record. The repeating peaks and v
     style="background-color: #fff; padding: 8px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
   />
   <figcaption style="font-style: italic; font-size: 0.9em; margin-top: 8px; color: #555;">
-    Annual mean temperature (°C) with an ordinary least squares (OLS) line of best fit. Only years with at least 330 days of data were included so incomplete years didn't skew the averages.
+    Annual mean temperature (°C) with an ordinary least squares (OLS) line of best fit. Only years with at least 330 days of data were included.
   </figcaption>
 </figure>
 
-The line of best fit shows an average change of about **0.0141 °C per year**, or roughly **1.41 °C per century**. [Describe the direction, e.g., "Temperatures in the Durango area have warmed over the period of record, with many of the warmest years occurring recently."] This is consistent with statewide trends: Colorado has warmed about 2.5°F since the early 1900s, and six of its eight warmest years on record have occurred since 2012 (Frankson et al., 2022).
+The line of best fit shows an average warming rate of about **0.0141 °C per year**, or roughly **1.41 °C (2.5 °F) per century**. Temperatures in the Durango area have clearly risen over the period of record. This closely matches statewide trends: Colorado has warmed about 2.5 °F since the early 1900s, and six of its eight warmest years on record have occurred since 2012 (Frankson et al., 2022).
 
 Warmer temperatures matter a lot for southwest Colorado. They mean less snowpack, earlier runoff in the Animas River, and drier conditions that raise wildfire risk, all issues I care about as a GIS student focused on natural resources and wildfire.
 
