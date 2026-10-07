@@ -62,7 +62,7 @@ Since I grew up in Durango, I analyzed how temperatures in the area have changed
 
 <figure style="text-align: center;">
   <img
-    src="/img/daily_temp_c.png"
+    src="/img/DGO_ann_mean_temp.png"
     alt="Daily temperature at Fort Lewis, CO"
     width="90%"
     style="background-color: #fff; padding: 8px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
@@ -78,7 +78,7 @@ This plot shows every daily temperature in the record. The repeating peaks and v
 
 <figure style="text-align: center;">
   <img
-    src="/img/annual_temp_trend.png"
+    src="/img/Lin_reg_plot.png"
     alt="Annual mean temperature trend at Fort Lewis, CO"
     width="90%"
     style="background-color: #fff; padding: 8px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
