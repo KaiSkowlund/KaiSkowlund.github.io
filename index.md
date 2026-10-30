@@ -116,18 +116,22 @@ I chose this species because it connects directly to where I grew up and live. I
 
 ### Hummingbirds Follow the Mountains North in Spring and Retreat to Mexico by Fall
 
-<figure style="text-align: center;">
+<figure style="width: 95vw; max-width: 1050px; position: relative; left: 50%; transform: translateX(-50%); text-align: center; margin-top: 20px; margin-bottom: 20px;">
   <embed
     type="text/html"
     src="/img/broad_tailed_hummingbird_migration.html"
-    frame_width= 2000
-    frame_height= 2000
+    width="100%"
+    height="800px"
     style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
   />
   <figcaption style="font-style: italic; font-size: 0.9em; margin-top: 8px; color: #555;">
     Relative occurrence of Broad-tailed Hummingbirds by ecoregion in 2023, normalized for sampling effort by month and ecoregion. Use the slider to move through the year; brighter colors mean more observations than usual for that place and month. Data: GBIF.
   </figcaption>
 </figure>
+
+<p style="text-align: center;">
+  <a href="/img/broad_tailed_hummingbird_migration.html" target="_blank">Open the map full screen ↗</a>
+</p>
 
 Moving the slider through the year shows the migration clearly. <!-- CHECK each claim below against your map -->
 
