@@ -100,17 +100,17 @@ Warmer temperatures matter a lot for southwest Colorado. They mean less snowpack
 
 ## Project: Tracking Broad-tailed Hummingbird Migration Across the West
 
-The Broad-tailed Hummingbird (*Selasphorus platycercus*) is the hummingbird most Coloradans know by sound. Males make a metallic trill with their wings that echoes through mountain meadows all summer. These birds weigh about as much as a nickel, yet they migrate each year between wintering grounds in the highlands of Mexico and Guatemala and breeding grounds in the mountains of the interior West, including Colorado and Wyoming (Olson, 2002). In spring they move north in steps: they reach southern Arizona in late February to early March, Colorado by late April to early May, and the northern edge of their range in Idaho by mid-May. By August they are heading back to Mexico (Olson, 2002).
+The Broad-tailed Hummingbird (*Selasphorus platycercus*) is a common humminbird in Colorado summers. Males make a unique sound which is commonly heard in meadows in areas abundant with wildflowers. These birds weigh about as much as a nickel, and they migrate each year between wintering grounds in the highlands of Mexico and Guatemala and breeding grounds in the mountains of the West, including Colorado and Wyoming (Olson, 2002). In spring they move north in steps: they reach southern Arizona in late February to early March, Colorado by late April to early May, and the northern edge of their range in Idaho by mid-May. By August they are heading back to Mexico (Olson, 2002).
 
 I chose this species because it connects directly to where I grew up and live. Its breeding habitat is the montane willow, aspen, and spruce-fir country of the Colorado Rockies. I wanted to see whether community-collected observations could reconstruct this migration on a map.
 
 ### Data and Methods
 
-**Observation data.** I downloaded all 2023 Broad-tailed Hummingbird records with coordinates from the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/). GBIF pools occurrence records from museum collections, research surveys, and community science platforms such as eBird and iNaturalist. I used a single recent, complete year so that each month appears exactly once on the map.
+**Observation data.** I downloaded all 2023 Broad-tailed Hummingbird records with coordinates from the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/). GBIF pools occurrence records from museum collections, research surveys, and community science platforms such as eBird and iNaturalist. I used data from all months of 2023. 
 
 **Ecoregions as the unit of analysis.** Instead of plotting thousands of individual points, I grouped the observations by ecoregion, using the RESOLVE Ecoregions 2017 dataset of 846 terrestrial ecoregions worldwide (Dinerstein et al., 2017). Ecoregions are defined by shared climate, vegetation, and wildlife communities. That makes them a natural unit for a migrating animal: the habitat a hummingbird depends on at a given time of year should be fairly consistent within one ecoregion, which isn't true of a state or country boundary.
 
-**Spatial join.** I used a spatial join in GeoPandas to find the ecoregion that contains each observation, then counted the observations in each ecoregion for each month. To reduce misidentifications, I removed any ecoregion–month combination with only one record.
+**Spatial join.** I used a spatial join in GeoPandas to find the ecoregion that contains each observation, then counted the observations in each ecoregion for each month.
 
 **Normalizing for sampling effort.** Raw counts mostly show where people are, not where birds are. GBIF data is strongly biased toward populated, accessible, well-studied places (Beck et al., 2014), and birders are also more active in some seasons than others. To correct for this, I divided each ecoregion–month count by that ecoregion's average monthly count, then by that month's average count across all ecoregions. The result is a *relative* measure. It shows when a region has more hummingbird observations than usual for that place and that time of year, which is what tracks the birds' movement.
 
@@ -133,15 +133,15 @@ I chose this species because it connects directly to where I grew up and live. I
   <a href="/img/broad_tailed_hummingbird_migration.html" target="_blank">Open the map full screen ↗</a>
 </p>
 
-Moving the slider through the year shows the migration clearly. <!-- CHECK each claim below against your map -->
+Moving the slider through the year shows the migration clearly. 
 
-**Winter (December–February):** Observations are concentrated in the pine-oak and fir forests of the Mexican highlands, matching the known wintering range. <!-- CHECK: any winter records in southern Arizona? Year-round feeders in the Southwest have led some birds to stay (Olson, 2002). -->
+**Winter (December–February):** Observations are concentrated in the pine-oak and fir forests of the Mexican highlands, matching the known wintering range. 
 
-**Spring (March–May):** The signal moves north in stages. Arizona and New Mexico ecoregions light up first, and Colorado and Utah follow by late April and May. This matches the stepwise arrival described in the literature. <!-- CHECK -->
+**Spring (March–May):** The signal moves north in stages. Arizona and New Mexico ecoregions light up first, and Colorado and Utah follow by late April and May. This matches the stepwise arrival described in the literature. 
 
-**Summer (June–August):** Observations peak in the montane forests of the Southern Rockies, the Wasatch and Uinta Mountains, and the Great Basin. This is the breeding range, where females nest in willows, aspen, and conifers along mountain streams. <!-- CHECK -->
+**Summer (June–August):** Observations peak in the montane forests of the Southern Rockies, the Wasatch and Uinta Mountains, and the Great Basin. This is the breeding range, where females nest in willows, aspen, and conifers along mountain streams. 
 
-**Fall (September–November):** The signal drops out of the northern ecoregions and moves back toward Mexico. <!-- CHECK: is it already fading in August? Olson (2002) reports birds reaching Mexico by August. -->
+**Fall (September–November):** The signal drops out of the northern ecoregions and moves back toward Mexico. 
 
 ### Why It Matters: A Race Against the Wildflowers
 
@@ -154,11 +154,9 @@ This is the phenological mismatch I looked at in the Veery work. A map like this
 - **Sampling bias remains.** Normalizing helps, but community science still underrepresents remote areas. Mexico's highland wintering grounds likely have far fewer observers than the Colorado Front Range or southern Arizona, so the winter signal is probably weaker than the true number of birds.
 - **One year of data.** 2023 is a single snapshot. Weather in any one year can shift migration timing, so detecting a trend would need multiple years.
 - **Ecoregions are coarse.** Broad-tailed Hummingbirds also move up and down in elevation within a single ecoregion, and that movement can't be seen at this scale.
-- **Relative, not absolute.** The normalized values show *when* a region is unusually active, not how many birds are actually there.
 
-**Data sources:** GBIF.org (2023) GBIF Occurrence Download, *Selasphorus platycercus* [add your download DOI here]; RESOLVE Ecoregions 2017.
+**Data sources:** GBIF.org (2023) GBIF Occurrence Download, *Selasphorus platycercus*
 
-**Code:** [GitHub repository](https://github.com/KaiSkowlund/[your-repo-name])
 
 **References:**
 
