@@ -104,15 +104,6 @@ The Broad-tailed Hummingbird (*Selasphorus platycercus*) is a common humminbird 
 
 I chose this species because it connects directly to where I grew up and live. Its breeding habitat is the montane willow, aspen, and spruce-fir country of the Colorado Rockies. I wanted to see whether community-collected observations could reconstruct this migration on a map.
 
-### Data and Methods
-
-**Observation data.** I downloaded all 2023 Broad-tailed Hummingbird records with coordinates from the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/). GBIF pools occurrence records from museum collections, research surveys, and community science platforms such as eBird and iNaturalist. I used data from all months of 2023. 
-
-**Ecoregions as the unit of analysis.** Instead of plotting thousands of individual points, I grouped the observations by ecoregion, using the RESOLVE Ecoregions 2017 dataset of 846 terrestrial ecoregions worldwide (Dinerstein et al., 2017). Ecoregions are defined by shared climate, vegetation, and wildlife communities. That makes them a natural unit for a migrating animal: the habitat a hummingbird depends on at a given time of year should be fairly consistent within one ecoregion, which isn't true of a state or country boundary.
-
-**Spatial join.** I used a spatial join in GeoPandas to find the ecoregion that contains each observation, then counted the observations in each ecoregion for each month.
-
-**Normalizing for sampling effort.** Raw counts mostly show where people are, not where birds are. GBIF data is strongly biased toward populated, accessible, well-studied places (Beck et al., 2014), and birders are also more active in some seasons than others. To correct for this, I divided each ecoregion–month count by that ecoregion's average monthly count, then by that month's average count across all ecoregions. The result is a *relative* measure. It shows when a region has more hummingbird observations than usual for that place and that time of year, which is what tracks the birds' movement.
 
 ### Hummingbirds Follow the Mountains North in Spring and Retreat to Mexico by Fall
 
@@ -135,17 +126,17 @@ I chose this species because it connects directly to where I grew up and live. I
 
 Moving the slider through the year shows the migration clearly. 
 
-**Winter (December–February):** Observations are concentrated in the pine-oak and fir forests of the Mexican highlands, matching the known wintering range. 
+**Winter (December–February):** Observations are concentrated in the Mexican highlands, matching the known wintering range. 
 
-**Spring (March–May):** The signal moves north in stages. Arizona and New Mexico ecoregions light up first, and Colorado and Utah follow by late April and May. This matches the stepwise arrival described in the literature. 
+**Spring (March–May):** Observations begin to move north. Arizona and New Mexico ecoregions light up first, and Colorado and Utah follow by late April and May.  
 
-**Summer (June–August):** Observations peak in the montane forests of the Southern Rockies, the Wasatch and Uinta Mountains, and the Great Basin. This is the breeding range, where females nest in willows, aspen, and conifers along mountain streams. 
+**Summer (June–August):** Observations peak in the forests of the Southern Rockies, the Wasatch and Uinta Mountains, and the Great Basin. This is the breeding range, where females begin to nest in vegetation.  
 
-**Fall (September–November):** The signal drops out of the northern ecoregions and moves back toward Mexico. 
+**Fall (September–November):** Observairons drop out of the northern ecoregions and moves back toward Mexico. 
 
-### Why It Matters: A Race Against the Wildflowers
+### A Race Against the Wildflowers
 
-Timing is everything for a hummingbird. Broad-tailed Hummingbirds arrive in the Rockies just as the first nectar flowers, such as glacier lilies, begin to bloom. A 2012 study, which included long-term records from the Rocky Mountain Biological Laboratory near Crested Butte, Colorado, found that early-season flowers at the northern breeding sites now bloom earlier than they used to, while hummingbird arrival has not kept pace (McKinney et al., 2012). Glacier lilies bloom about 17 days earlier than in the 1970s, and the gap between the first hummingbird and the first flower shrank by 13 days over four decades. In some years the lilies had already bloomed before the first hummingbird arrived. The authors projected that if these trends continue, the birds could miss the first flowers entirely within about two decades (McKinney et al., 2012; ScienceDaily, 2012).
+Broad-tailed Hummingbirds time their arrival in the Rockies to the first spring flowers. Climate change is pulling those flowers earlier. Near Crested Butte, Colorado, glacier lilies now bloom about 17 days earlier than in the 1970s, but hummingbird arrival hasn't kept pace. The gap between the first bird and the first bloom has shrunk by 13 days, and if the trend continues, hummingbirds could miss the first flowers entirely within about two decades (McKinney et al., 2012; ScienceDaily, 2012). Repeating this map over several years could show whether their spring arrival in Colorado is shifting to keep up.
 
 This is the phenological mismatch I looked at in the Veery work. A map like this one, repeated over several years, could show whether the timing of the spring push into Colorado is shifting.
 
