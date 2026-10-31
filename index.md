@@ -121,10 +121,10 @@ I chose this species because it connects directly to where I grew up and live. I
 </figure>
 
 <p style="text-align: center;">
-  <a href="/img/broad_tailed_hummingbird_migration.html" target="_blank">Open the map full screen ↗</a>
+  <a href="/img/broad_tailed_hummingbird_migration.html" target="_blank">
 </p>
 
-Moving the slider through the year shows the migration clearly. 
+
 
 **Winter (December–February):** Observations are concentrated in the Mexican highlands, matching the known wintering range. 
 
