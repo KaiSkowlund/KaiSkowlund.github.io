@@ -120,9 +120,7 @@ I chose this species because it connects directly to where I grew up and live. I
   </figcaption>
 </figure>
 
-<p style="text-align: center;">
-  <a href="/img/broad_tailed_hummingbird_migration.html" target="_blank">
-</p>
+
 
 
 
